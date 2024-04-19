@@ -1,3 +1,4 @@
+// export all resources
 export * from "./errors/error-bad-request";
 export * from "./errors/error-custom";
 export * from "./errors/error-database-connection";
