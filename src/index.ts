@@ -1,15 +1,10 @@
-interface Color {
-  red: number;
-  blue: number;
-  green: number;
-}
-
-const color: Color = {
-  red: 10,
-  blue: 10,
-  green: 10,
-};
-
-console.log(color);
-
-export default color;
+export * from "./errors/error-bad-request";
+export * from "./errors/error-custom";
+export * from "./errors/error-database-connection";
+export * from "./errors/error-not-found";
+export * from "./errors/error-request-validation";
+export * from "./errors/error-unauthorized";
+export * from "./middleware/error-handling";
+export * from "./middleware/validate-request";
+export * from "./middleware/current-user-check";
+export * from "./middleware/requireAuthentication";
